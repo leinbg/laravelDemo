@@ -42,7 +42,7 @@
             "Illuminate\\Foundation\\ComposerScripts::postInstall",
             "php artisan optimize",
             "touch database/database.sqlite",
-            "php artisan migrate --seed",
+            "php artisan migrate --seed"
         ]
     },
     "config": {
